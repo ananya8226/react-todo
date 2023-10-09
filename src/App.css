@@ -1,0 +1,85 @@
+body{
+  background-color: #A1CCD1;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 20px; */
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+
+.addbtn {
+  background-color: #F4F2DE;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+.deletebtn{
+  background-color: #d4320a;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  font-weight:900;
+  cursor: pointer;
+  margin-left: 1rem;
+  border:0;
+  border-radius: 10px;
+}
+
+.editbtn{
+  background-color: #0d4c88ec;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight:900;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 1rem;
+  border:0;
+  border-radius: 10px;
+}
+
+.words {
+  margin-top: 20px;
+}
+
+.display{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+  
+}
+
+.task{
+  width: 14.5rem;
+  background-color: rgb(224, 222, 222);
+  text-align: center;
+  padding: 0.6rem;
+  border: 2px solid ;
+  border-radius: 10px;
+  overflow-x: hidden;
+}
